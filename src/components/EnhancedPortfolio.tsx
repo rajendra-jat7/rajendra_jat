@@ -33,8 +33,8 @@ export default function EnhancedPortfolio() {
   const themeMapping: Record<ColorTheme, { image: string; border: string }> = {
     green: { image: RajendraGreen, border: 'border-green-500' },
     blue: { image: RajendraBlue, border: 'border-blue-500' },
-    purple: { image: RajendraPurple, border: 'border-red-500' },
-    red: { image: RajendraRed, border: 'border-purple-500' },
+    purple: { image: RajendraPurple, border: 'border-purple-500' },
+    red: { image: RajendraRed, border: 'border-red-500' },
     orange: { image: RajendraOrange, border: 'border-orange-500' },
     pink: { image: RajendraPink, border: 'border-pink-500' },
     cyan: { image: RajendraCyan, border: 'border-cyan-500' },
@@ -1282,7 +1282,7 @@ export default function EnhancedPortfolio() {
                     {/* Contact Information */}
                     <div className="space-y-4">
                       {[
-                        { icon: Mail, label: 'rajendrajat.work@gmail.com', href: 'mailto:sandeepmakwana.work@gmail.com' },
+                        { icon: Mail, label: 'rajendrajat.work@gmail.com', href: 'mailto:rajendrajat.work@gmail.com' },
                         { icon: Phone, label: '+91 8875781413', href: 'tel:+918875781413' },
                         { icon: MapPin, label: 'Ajmer, Rajasthan, India', href: null },
                       ].map((contact, index) => (
